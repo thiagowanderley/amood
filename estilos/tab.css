@@ -1,0 +1,38 @@
+
+
+div#cont {
+    width: 700px;
+    height: 500px;
+}
+
+div#put {
+    margin: 5px;
+}
+
+div#caixa {
+    display: block;
+    margin: auto;
+    width: 120px;
+}
+
+input#btn {
+    width: 60px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: grey;
+}
+
+input#btn:hover {
+    background-color: dimgray;
+    border: solid black 1px;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+div#res > img#img {
+    width: 250px;
+    height: 250px;
+}

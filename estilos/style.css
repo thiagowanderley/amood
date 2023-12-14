@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+div#cont {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form p {
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div#put {
+    margin-bottom:5px;
+}
+
+input#btn {
+    width: 60px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
+}
+
+div#res > img#img {
+    display: none;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
